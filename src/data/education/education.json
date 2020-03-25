@@ -1,0 +1,12 @@
+{
+    "slug":"presencial",
+    "title":"Formación académica",
+    "description": "Formación académica, grados de estudio e instituciones a las que asistí",
+    "items":[
+        {
+            "name":"UADY",
+            "degree":"Estudiante de ingeniería de software",
+            "score":"10"
+        }
+    ]
+}
