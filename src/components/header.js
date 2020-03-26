@@ -7,10 +7,10 @@ export default () =>(
         <div className="container mx-auto p-12 max-w-4xl">
             <div className="flex justify-center items-center">
                 <div>
-                    <h1 className="font-bold text-blue-400 text-6xl">¡Hola! Soy Eliezer</h1>
+                    <h1 className="font-bold text-blue-300 text-6xl">¡Hola! Soy Eliezer</h1>
                     <p className="text-xl text-gray-800 font-light">Estudiante en ingenieria de software</p>
                 </div>
-                <img src={illustration} style={{height:"300px"}}></img>
+                <img src={illustration} style={{height:"300px"}} alt=""></img>
             </div>
             <div>
                 <Form/>

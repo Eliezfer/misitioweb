@@ -14,7 +14,7 @@ export default () => {
             let myRepos = JSON.parse(data);
             setReposCount(myRepos.length);
 
-            myRepos = myRepos.slice(1,4);
+            myRepos = myRepos.slice(0,5);
             return setRepos(myRepos);
         }
 
@@ -25,7 +25,7 @@ export default () => {
             setReposCount(myRepos.length);
             
             sessionStorage.setItem("repos", JSON.stringify(myRepos));
-            myRepos = myRepos.slice(1,4);
+            myRepos = myRepos.slice(0,5);
             setRepos(myRepos);
         }
         

@@ -5,7 +5,7 @@ export default (props) =>{
     return(
         <div className=" shadow p-8 bg-white mr-4 rounded flex-shrink-0" style={{width:"300px"}}>
             <h4 className="font-bold text-center">
-                <a href={course.url} target="_blank">
+                <a href={course.url} target="_blank" rel="noopener noreferrer">
                 {course.title}
                 </a>
             </h4>
