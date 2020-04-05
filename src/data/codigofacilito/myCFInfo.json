@@ -5,14 +5,22 @@
             {
                 "score":9,
                 "code":"6e89243d-ff5f-416e-90bb-ead735970e06",
-                "title":"Curso Profesional de JavaScript",
-                "href":"/static/905e219828344f00040f255424b519a4/certificado_js.pdf"
+                "title":"Curso Profesional de JavaScript"
             },
             {
                 "score":9,
                 "code":"58d5a5d6-ddd3-435f-8a19-e48a049b5c98",
-                "title":"Curso Profesional de Python",
-                "href":"/static/92f9f174121b35e5bd8ea69efa48ba36/certificado_python.pdf"
+                "title":"Curso Profesional de Python"
+            },
+            {
+                "score":9,
+                "code":"36563d3f-01d2-4581-8d0e-0c4c3ba53865",
+                "title":"Curso Profesional Desarrollo Web"
+            },
+            {
+                "score":10,
+                "code":"a87e93b4-f7f4-4f2a-a768-38d99b6f5e77",
+                "title":"Curso de Patrones de Diseño con JAVA"
             }
         ],
     "articles":[],
@@ -41,6 +49,16 @@
                 "title":"Curso Profesional de Python",
                 "progress":"100.0",
                 "url":"http://codigofacilito.com/courses/python-profesional"
+            },
+            {
+                "title":"Curso Profesional Desarrollo Web",
+                "progress":"100.0",
+                "url":"http://codigofacilito.com/courses/frontend-profesional"
+            },
+            {
+                "title":"Curso de Patrones de Diseño con JAVA",
+                "progress":"100.0",
+                "url":"http://codigofacilito.com/courses/patrones-diseno"
             }
         ],
     "finished_courses":[
@@ -63,6 +81,14 @@
             {
                 "title":"Curso Profesional de Python",
                 "url":"http://codigofacilito.com/courses/python-profesional"
+            },
+            {
+                "title":"Curso Profesional Desarrollo Web",
+                "url":"http://codigofacilito.com/courses/frontend-profesional"
+            },
+            {
+                "title":"Curso de Patrones de Diseño con JAVA",
+                "url":"http://codigofacilito.com/courses/patrones-diseno"
             }
         ]
         },

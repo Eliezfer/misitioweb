@@ -1,17 +1,13 @@
 import React from 'react';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
+import Navbar from '../components/navbar';
 
 export default (props) =>{
     const pageData = props.data.educationJson
     return(
         <div>
-            <header className="py-12 border-blue-500 border-solid border-t-8">
-                <div className="max-w-4xl mx-auto">
-                    <Link to="/" className="uppercase underline text-gray-700">Inicio</Link>
-                    <h2 className="capitalize text-6xl font-bold">{pageData.title}</h2>
-                    <p className="text-xl">{pageData.description}</p>
-                </div>
-            </header>
+            <Navbar/>
+            
             <ul className="max-w-4xl mx-auto pb-8">
                 {
                     pageData.items.map((item,index)=>(

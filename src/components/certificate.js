@@ -3,7 +3,7 @@ import React from 'react';
 export default (props) => {
     const certificate = props.element;
     return (
-        <div className="shadow p-8 bg-white mr-4 rounded">
+        <div className="shadow p-8 bg-white rounded text-center">
             <h4 className="font-bold">
                 <a href={certificate.href} target="_blank" rel="noopener noreferrer">
                 {certificate.title}

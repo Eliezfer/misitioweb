@@ -3,7 +3,7 @@ import React from 'react';
 export default (props) =>{
     const course = props.element;
     return(
-        <div className=" shadow p-8 bg-white mr-4 rounded flex-shrink-0" style={{width:"300px"}}>
+        <div className="shadow p-8 bg-white rounded text-center">
             <h4 className="font-bold text-center">
                 <a href={course.url} target="_blank" rel="noopener noreferrer">
                 {course.title}

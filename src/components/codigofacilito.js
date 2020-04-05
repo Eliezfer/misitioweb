@@ -13,7 +13,6 @@ export default () => {
                     title
                     score
                     code
-                    href
                 }
                 courses {
                     progress
