@@ -28,3 +28,13 @@ body{
     text-orientation: upright;
     @apply bg-teal-200 text-blue-700 text-xs p-2 inline-block
 }
+
+.txt-color-primary {
+    color: #17dae8;
+}
+
+
+.bg-color-primary {
+    background-color: #17dae8;
+}
+
