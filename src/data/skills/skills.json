@@ -1,0 +1,92 @@
+{
+    "data":{
+
+        "devops":[
+            {
+                "name":"Docker",
+                "percentage":"50%"
+            },
+            {
+                "name":"Kubernates",
+                "percentage":"50%"
+            },
+            {
+                "name":"Jenkins",
+                "percentage":"60%"
+            },
+            {
+                "name":"git",
+                "percentage":"80%"
+            },
+            {
+                "name":"phpunit",
+                "percentage":"70%"
+            }
+        ],
+        "frontend":[
+            {
+                "name":"HTML",
+                "percentage":"90%"
+            },
+            {
+                "name":"CSS",
+                "percentage":"80%"
+            },
+            {
+                "name":"JAVASCRIPT",
+                "percentage":"70%"
+            },
+            {
+                "name":"REACT",
+                "percentage":"70%"
+            },
+            {
+                "name":"Tailwind",
+                "percentage":"70%"
+            }
+            
+        ],
+        "backend":[
+            {
+                "name":"Java",
+                "percentage":"90%"
+            },
+            {
+                "name":"Spring Boot",
+                "percentage":"80%"
+            },
+            {
+                "name":"PHP",
+                "percentage":"90%"
+            },
+            {
+                "name":"Laravel",
+                "percentage":"80%"
+            },
+            {
+                "name":"MySQl",
+                "percentage":"80%"
+            },
+            {
+                "name":"MongoDB",
+                "percentage":"60%"
+            }
+        ],
+        "softskills":[
+            {
+                "name":"Autodidacta",
+                "percentage":"100%"
+            },
+            {
+                "name":"Creativo",
+                "percentage":"100%"
+            },
+            {
+                "name":"Trabajo en equipo",
+                "percentage":"100%"
+            }
+        ]
+        
+        
+    }
+}

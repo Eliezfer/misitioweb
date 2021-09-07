@@ -4,7 +4,7 @@ import cvPDF from '../assets/Eliezer-Couoh-CV.pdf'
 
 
 export default () =>(
-    <div className="container-center pt-20 px-12 mx-auto">
+    <div className="container-center pt-20 sm:px-12 mx-auto">
         <h1 className=" font-bold text-3xl flex justify-center items-center " >About me</h1>
         <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">Who is Eliezfer?</span>
         <div className=" py-10 flex flex-col md:flex-row justify-center items-center ">
