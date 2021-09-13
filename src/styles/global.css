@@ -8,6 +8,56 @@ body{
     @apply bg-gray-200
 }
 
+
+    .timeline-img {
+        @apply  h-20 w-20 object-cover rounded-full shadow-md border-4 border-white;
+    }
+
+    .timeline-container {
+        @apply relative pt-2;
+    }
+
+    .timeline-pointer {
+        @apply absolute inset-0 h-4 w-4 transform rotate-45 bg-white;
+        left: 10;
+    }
+
+    @screen sm {
+        .timeline-img{
+            @apply absolute;
+        }
+
+        .timeline-container {
+            @apply pl-32 pt-0;
+        }
+        .timeline-pointer {
+            top: 11;;
+            left: 26;
+        }
+     }
+
+     @screen md {
+        .timeline-img{
+            @apply mx-auto left-0 right-0;
+        }
+
+        .timeline-container {
+            @apply w-1/2 ml-auto pl-16;
+        }
+        .timeline-container-left {
+            @apply ml-0 mr-auto pl-0 pr-16;
+        }
+        .timeline-pointer-left {
+            @apply left-auto;
+            right: 12;
+        }
+        .timeline-pointer {
+            left: 14;
+        }
+     }
+
+
+
 .btn{
     @apply bg-blue-400 text-white font-bold rounded border border-blue-700 py-2 px-4 border-b-4
 }
@@ -17,6 +67,13 @@ body{
     column-rule: 1px solid;
     
 }
+
+.skills__content {
+    @apply  py-10 flex flex-col justify-center items-center
+
+}
+
+
 
 .repos-list li{
     @apply p-4;
@@ -37,4 +94,6 @@ body{
 .bg-color-primary {
     background-color: #17dae8;
 }
+
+
 
