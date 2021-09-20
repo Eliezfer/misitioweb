@@ -2,7 +2,7 @@ import React from "react";
 import illustration from '../imgs/profile-header.png';
 
 export default () =>(
-    <header className="bg-gray-900 sm:h-screen ">
+    <header className="bg-gray-900 sm:h-screen pt-20 sm:pt-px">
         
         <div className=" my-auto md:space-y-4 mx-auto px-12 sm:py-20  max-w-7xl ">
             

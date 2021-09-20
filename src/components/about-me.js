@@ -17,7 +17,7 @@ export default () =>(
                 autodidacta y que mantine un constante aprendizaje en diversas plataformas.
                 </p> 
 
-                <div className="sm:px-10 py-6 grid gap-x-8 grid-flow-col grid-cols-3 text-center ">
+                <div className="px-10 sm:px-10 py-6 grid gap-x-8 grid-flow-col grid-cols-3 text-center ">
                     <div className="flex flex-col justify-center items-center ">
                         <span className=" bg-gray-900 text-white text-bold text-md sm:text-2xl"> 02+</span>
                         <span className="text-sm sm:text-base"> Años <br></br>de experiencia  </span>

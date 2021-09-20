@@ -35,7 +35,7 @@ export default function Modal() {
                         className="w-4/6 align-middle object-contain mx-auto"
                     />
                   <p className="my-4 text-blueGray-500 text-lg leading-relaxed mx-auto">
-                    Actualmente mi portafolio esta en construcción por lo que algunas funciones aún no estan listas.
+                    Actualmente mi portafolio esta en construcción por lo que algunas funciones aún no estan disponibles.
                   </p>
                 </div>
                 {/*footer*/}
