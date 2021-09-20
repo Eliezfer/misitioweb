@@ -34,7 +34,7 @@ export default () =>{
 
     return (
         
-        <div className="container-center pt-20 px-12 mx-auto">
+        <div id='skills' className="container-center pt-20 px-12 mx-auto">
             <h1 className=" font-bold text-3xl flex justify-center items-center " >Skills</h1>
             <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center text-center w-48 mx-auto">Qué he aprendido?</span>
 

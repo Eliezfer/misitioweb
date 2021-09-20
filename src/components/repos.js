@@ -49,7 +49,7 @@ export default () => {
                 }
             </ul>
             <div className="mt-8 text-center">
-                <a href="https://github.com/Eliezfer" className="btn" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Eliezfer" className="bg-color-primary hover:bg-blue-700 text-white font-bold py-2 my-6 px-4 rounded inline-flex items-center" target="_blank" rel="noopener noreferrer">
                     Ver más en github ({reposCount})
                 </a>
             </div>

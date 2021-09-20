@@ -4,7 +4,7 @@ import cvPDF from '../assets/Eliezer-Couoh-CV.pdf'
 
 
 export default () =>(
-    <div className="container-center pt-20 sm:px-12 mx-auto">
+    <div id='aboutMe' className="container-center pt-20 sm:px-12 mx-auto">
         <h1 className=" font-bold text-3xl flex justify-center items-center " >About me</h1>
         <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">Quien es Eliezfer?</span>
         <div className=" py-10 flex flex-col md:flex-row justify-center items-center ">
@@ -12,8 +12,8 @@ export default () =>(
             <img className=" w-56 object-contain rounded-xl mx-auto md:w-4/12 lg:w-2/6 xl:mx-auto" src={illustration} alt=""></img>
             <div className=" pt-10 md:w-3/5 flex flex-col items-center ">
                <p className="  px-10 text-justify">
-                Mi nombre es Eliezer Fernando Couoh Balam, de Mérida Yucatán. Actualmente (2021) he egresado de la carrera Ingeniería de Softare de la de la Facultad de Matemáticas de la UADY.
-                Me he desarrollado en el área de desarrollo web, QA y DevOps en los últimos dos años y pretendo crecer en estas tres áreas de manera FullStack, para ello me considero una persona 
+                Mi nombre es Eliezer Fernando Couoh Balam, de Mérida Yucatán. Actualmente (2021) he egresado de la carrera Ingeniería de Software de la de la Facultad de Matemáticas de la UADY.
+                Me he desarrollado en el área de desarrollo web, QA y DevOps en los últimos dos años y pretendo crecer en estas tres áreas para posicionarme como FullStack, para ello me considero una persona 
                 autodidacta y que mantine un constante aprendizaje en diversas plataformas.
                 </p> 
 
@@ -28,10 +28,10 @@ export default () =>(
                         <span className="text-sm sm:text-base"> Compañías <br></br> que he trabajado </span>
                     </div>
 
-                    {/*<div className="flex flex-col justify-center items-center text-center">
-                        <span className="bg-gray-900 text-white  text-bold text-md sm:text-2xl"> 05+ </span>
+                    <div className="flex flex-col justify-center items-center text-center">
+                        <span className="bg-gray-900 text-white  text-bold text-md sm:text-2xl"> 07+ </span>
                         <span className="text-sm sm:text-base"> Proyectos <br></br> concluidos </span>
-                    </div>*/}
+                    </div>
             
                 </div>
                 

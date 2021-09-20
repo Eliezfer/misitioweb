@@ -23,9 +23,9 @@ export default(props)=>{
     `);*/
 
     return(
-        <div className="container-center pt-20 px-12 mx-auto">
+        <div id='qualification' className="container-center pt-20 px-12 mx-auto">
             <h1 className=" font-bold text-3xl flex justify-center items-center " >Qualification</h1>
-            <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center text-center w-48 mx-auto">My personal Journey</span>
+            <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center text-center w-48 mx-auto"> Mi viaje personal</span>
 
             <div class="relative container mx-auto px-6 flex flex-col space-y-8">
             <div

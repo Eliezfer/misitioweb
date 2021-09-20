@@ -4,10 +4,12 @@ import illustration from '../imgs/crown.svg';
 
 
 export default () =>(
-    <div>
+    <div className=" fixed inset-x-0 top-0  z-50 outline-none focus:outline-none">
         <nav class="flex items-center justify-between flex-wrap bg-gray-900 px-3 pt-3">
             <div class="flex items-center flex-shrink-0 pl-12 pt-3">
+            <a href="https://www.eliezfer.com/">
                 <img src={illustration} class="h-12" alt=""></img>
+            </a>
             </div>
             <div class="block sm:hidden">
                 <button class="flex items-center px-3 py-2 border rounded text-teal-300 border-teal-400 hover:text-white hover:border-white">
@@ -19,14 +21,14 @@ export default () =>(
                 <Link to="/" className="block mt-4 mr-12 py-3  sm:inline-block sm:mt-0  hover:text-white " >
                     Home
                 </Link>
-                <Link to="/about" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white ">
+                <Link to="#aboutMe" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white ">
                     About
                 </Link>
-                <Link to="/blog" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
-                    Blog
+                <Link to="#skills" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
+                    skills
                 </Link>
-                <Link to="/contact" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
-                    Contact
+                <Link to="#qualification" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
+                    Qualification
                 </Link>
                 </div>
                 
