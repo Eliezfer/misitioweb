@@ -5,9 +5,11 @@ import Codigofacilito from "../components/codigofacilito"
 import EducationNav from "../components/education-nav"
 import AboutMe from "../components/about-me"
 import Skills from "../components/skills"
+import Modal from "../components/modal";
 
 
 export default () => <div>
+   <Modal/>
    <Header/> 
    <AboutMe/>
    <Skills/>

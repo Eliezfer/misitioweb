@@ -43,6 +43,10 @@
             {
                 "name":"Tailwind",
                 "percentage":"70%"
+            },
+            {
+                "name":"Figma",
+                "percentage":"80%"
             }
             
         ],
@@ -84,6 +88,18 @@
             {
                 "name":"Trabajo en equipo",
                 "percentage":"100%"
+            },
+            {
+                "name":"Comunicación",
+                "percentage":"100%"
+            },
+            {
+                "name":"Español",
+                "percentage":"100%"
+            },
+            {
+                "name":"Inlgés",
+                "percentage":"55%"
             }
         ]
         

@@ -18,9 +18,9 @@ export default () =>(
                     
                     <h1 className=" text-xs invisible md:visible font-bold text-white md:text-4xl lg:text-5xl md:py-4">Hi, Soy Eliezer </h1>
                     
-                    <h3 className=" font-bold text-white text-1xl md:text-md xl:text-xl pb-4 md:py-4">Desarrollador de Software</h3>
+                    <h3 className=" font-bold text-white text-1xl md:text-md xl:text-xl pb-4 md:py-4">Ingeniero de Software</h3>
                     <p className="text-base sm:text-sm md:text-md xl:text-xl text-white font-light py-4">
-                    Un estudiante de 8° semestre de ingeniería de software, enfocado en el desarrollo web y el aseguramiento de la calidad de software.
+                     Soy un Ingeniero de Software recien egresado (2021), con experiencia en dos años enfocado en el desarrollo web, aseguramiento de la calidad de software y DevOps.
                     </p>
                     <button class="bg-color-primary hover:bg-blue-700 text-white font-bold py-2 my-6 px-4 rounded inline-flex items-center">
                         <span>Contact Me</span>

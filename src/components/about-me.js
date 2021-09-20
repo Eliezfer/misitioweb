@@ -6,30 +6,32 @@ import cvPDF from '../assets/Eliezer-Couoh-CV.pdf'
 export default () =>(
     <div className="container-center pt-20 sm:px-12 mx-auto">
         <h1 className=" font-bold text-3xl flex justify-center items-center " >About me</h1>
-        <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">Who is Eliezfer?</span>
+        <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">Quien es Eliezfer?</span>
         <div className=" py-10 flex flex-col md:flex-row justify-center items-center ">
             
             <img className=" w-56 object-contain rounded-xl mx-auto md:w-4/12 lg:w-2/6 xl:mx-auto" src={illustration} alt=""></img>
             <div className=" pt-10 md:w-3/5 flex flex-col items-center ">
                <p className="  px-10 text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non bibendum elit. Maecenas eu nisl nec lorem porttitor iaculis sit amet ac nibh. Sed sollicitudin libero quis urna pharetra ultricies. Morbi non turpis non ligula auctor faucibus. Sed velit erat, fringilla a ornare sed, pharetra id quam. Nunc mi orci, lobortis ut justo a, accumsan sodales dolor. In ac ex posuere, ornare risus at, interdum nisl. 
+                Mi nombre es Eliezer Fernando Couoh Balam, de Mérida Yucatán. Actualmente (2021) he egresado de la carrera Ingeniería de Softare de la de la Facultad de Matemáticas de la UADY.
+                Me he desarrollado en el área de desarrollo web, QA y DevOps en los últimos dos años y pretendo crecer en estas tres áreas de manera FullStack, para ello me considero una persona 
+                autodidacta y que mantine un constante aprendizaje en diversas plataformas.
                 </p> 
 
                 <div className="sm:px-10 py-6 grid gap-x-8 grid-flow-col grid-cols-3 text-center ">
                     <div className="flex flex-col justify-center items-center ">
-                        <span className=" bg-gray-900 text-white text-bold text-md sm:text-2xl"> 01+ </span>
-                        <span className="text-sm sm:text-base"> Years <br></br>experience  </span>
+                        <span className=" bg-gray-900 text-white text-bold text-md sm:text-2xl"> 02+</span>
+                        <span className="text-sm sm:text-base"> Años <br></br>de experiencia  </span>
                     </div>
 
                     <div className="flex flex-col justify-center items-center text-center">
                         <span className="bg-gray-900 text-white  text-bold text-md sm:text-2xl"> 02+ </span>
-                        <span className="text-sm sm:text-base"> Companies <br></br> worked </span>
+                        <span className="text-sm sm:text-base"> Compañías <br></br> que he trabajado </span>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center text-center">
-                        <span className="bg-gray-900 text-white  text-bold text-md sm:text-2xl"> 02+ </span>
-                        <span className="text-sm sm:text-base"> Companies <br></br> worked </span>
-                    </div>
+                    {/*<div className="flex flex-col justify-center items-center text-center">
+                        <span className="bg-gray-900 text-white  text-bold text-md sm:text-2xl"> 05+ </span>
+                        <span className="text-sm sm:text-base"> Proyectos <br></br> concluidos </span>
+                    </div>*/}
             
                 </div>
                 
