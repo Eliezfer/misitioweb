@@ -95,5 +95,31 @@ body{
     background-color: #17dae8;
 }
 
+button.rec-dot_active{
+    background-color: #17dae8;
+    box-shadow: 0 0 1px 3px #ffffff00;
+}
 
+  button.rec-dot:hover, button.rec-dot:focus  {
+    box-shadow: 0 0 1px 3px #17dae8;
+    
+  }
 
+  .rec.rec-arrow-left,
+  .rec.rec-arrow-right{
+      background-color: #ffffff00;
+      box-shadow: 0 0 1px 3px #ffffff00;
+      @apply w-4 m-0 p-0;
+  }
+
+  .rec.rec-arrow-left:hover, .rec.rec-arrow-left:hover:enabled, .rec.rec-arrow-left:focus:enabled
+  .rec.rec-arrow-right:hover, .rec.rec-arrow-right:hover:enabled, .rec.rec-arrow-right:focus:enabled{
+        background-color: #17dae8;
+      box-shadow: 0 0 1px 3px rgba(237, 245, 245, 0.5);
+  }
+
+  .khvUfi:hover:enabled, .khvUfi:focus:enabled {
+    color: #fff;
+    background-color: #17dae8;
+    box-shadow: 0 0 2px 0 #333;
+}

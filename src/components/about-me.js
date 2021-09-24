@@ -30,7 +30,7 @@ export default () =>(
 
                     <div className="flex flex-col justify-center items-center text-center">
                         <span className="bg-gray-900 text-white  text-bold text-md sm:text-2xl"> 07+ </span>
-                        <span className="text-sm sm:text-base"> Proyectos <br></br> concluidos </span>
+                        <span className="text-sm sm:text-base"> Proyectos <br></br> que he colaborado</span>
                     </div>
             
                 </div>
