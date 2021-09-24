@@ -30,6 +30,9 @@ export default () =>(
                 <Link to="#qualification" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
                     Qualification
                 </Link>
+                <Link to="#projects" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
+                    Projects
+                </Link>
                 </div>
                 
             </div>

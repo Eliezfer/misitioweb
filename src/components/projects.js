@@ -12,7 +12,7 @@ export default () =>{
 
     
     return(
-    <div id='aboutMe' className="container-center pt-20 sm:px-12 mx-auto">
+    <div id='#projects' className="container-center pt-20 sm:px-12 mx-auto">
         <h1 className=" font-bold text-3xl flex justify-center items-center " >Projects</h1>
         <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">En que he trabajado?</span>
         <div className=" py-10 flex flex-col md:flex-row justify-center items-center ">
