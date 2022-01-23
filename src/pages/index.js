@@ -8,11 +8,10 @@ import Skills from "../components/skills"
 import Modal from "../components/modal";
 import Navbar from "../components/navbar";
 import Projects from "../components/projects";
-
+import Contact from "../components/contact.form";
 
 export default () => <div>
    <Navbar/>
-   <Modal/>
    <Header/> 
    <AboutMe/>
    <Skills/>
@@ -20,4 +19,5 @@ export default () => <div>
    <Projects/> 
    <Repos/>
    <Codigofacilito/>
+   <Contact/>
 </div>

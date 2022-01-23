@@ -14,7 +14,7 @@ export default () =>{
     return(
     <div id='projects' className="container-center pt-20 sm:px-12 mx-auto">
         <h1 className=" font-bold text-3xl flex justify-center items-center " >Projects</h1>
-        <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">En que he trabajado?</span>
+        <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">En qué he trabajado?</span>
         <div className=" py-10 flex flex-col md:flex-row justify-center items-center ">
          
         <Carousel breakPoints={breakPoints} >
@@ -27,12 +27,12 @@ export default () =>{
                             Plataforma para gestión de contratación de personas para diferentes empresas.
                             Mis actividades fueron en Backend (Java Spring y MongoDB) e infraestructura de la aplicación (DevOps con Docker, Kubernates y Jenkins).
                         </p> 
-                        <div className="">
+                        {/*<div className="">
                             <a href="http://52.185.65.62/login" target="_blank" class="bg-color-primary hover:bg-blue-700 font-bold py-2 my-6 px-4 rounded inline-flex items-center">
                                 <span className="text-white">Ver proyecto  </span>
                                 
                             </a>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>
@@ -43,14 +43,14 @@ export default () =>{
                         <span className="font-bold text-1xl py-4 text-gray-900 align-baseline lg:text-2xl">Heineken</span>
                         <p className="lg:py-10 ">
                             Plataforma para análisis de consumo de recursos de la empresa.
-                            Mis actividades fueron en soporte en Backend para análisis estadisticos de intervalos de confianza para prediciones de consumo (Java Spring y MySql).
+                            Mis actividades fueron en soporte en Backend para análisis estadísticos de intervalos de confianza para predicciones de consumo (Java Spring y MySql).
                         </p> 
-                        <div className="">
+                        {/*<div className="">
                             <a href="https://performanceheineken.com/" target="_blank" class="bg-color-primary hover:bg-blue-700 font-bold py-2 my-6 px-4 rounded inline-flex items-center">
                                 <span className="text-white">Ver proyecto  </span>
                                 
                             </a>
-                        </div>
+                    </div>*/}
                     </div>
                 </div>
             </div>

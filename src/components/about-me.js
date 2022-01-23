@@ -1,12 +1,12 @@
 import React from "react";
 import illustration from '../imgs/me.jpg';
-import cvPDF from '../assets/Eliezer-Couoh-CV.pdf'
+import cvPDF from '../assets/Eliezer-Couoh-CV-EN.pdf'
 
 
 export default () =>(
     <div id='aboutMe' className="container-center pt-20 sm:px-12 mx-auto">
         <h1 className=" font-bold text-3xl flex justify-center items-center " >About me</h1>
-        <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">Quien es Eliezfer?</span>
+        <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">Quién es Eliezfer?</span>
         <div className=" py-10 flex flex-col md:flex-row justify-center items-center ">
             
             <img className=" w-56 object-contain rounded-xl mx-auto md:w-4/12 lg:w-2/6 xl:mx-auto" src={illustration} alt=""></img>
@@ -14,7 +14,7 @@ export default () =>(
                <p className="  px-10 text-justify">
                 Mi nombre es Eliezer Fernando Couoh Balam, de Mérida Yucatán. Actualmente (2021) he egresado de la carrera Ingeniería de Software de la de la Facultad de Matemáticas de la UADY.
                 Me he desarrollado en el área de desarrollo web, QA y DevOps en los últimos dos años y pretendo crecer en estas tres áreas para posicionarme como FullStack, para ello me considero una persona 
-                autodidacta y que mantine un constante aprendizaje en diversas plataformas.
+                autodidacta y que mantiene un constante aprendizaje en diversas plataformas.
                 </p> 
 
                 <div className="px-10 sm:px-10 py-6 grid gap-x-8 grid-flow-col grid-cols-3 text-center ">
