@@ -36,7 +36,7 @@ export default () =>(
                 </div>
             </div>
         </div>
-        <form className="mt-16 mx-5 " name="contact" methodx="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form className="mt-16 mx-5 " name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
             <div className="rounded grid grid-cols-5 gap-4 border p-4">
                 
                 <div class="col-span-5 mt-4">
@@ -55,15 +55,15 @@ export default () =>(
                 </div>
 
                 <div class="col-span-5  mt-4 ">
-                    <label for="about" class="block font-bold text-sm text-gray-900 align-baseline ">
+                    <label for="message" class="block font-bold text-sm text-gray-900 align-baseline ">
                         Mensaje
                     </label>
                     <div class="mt-1">
-                        <textarea required id="about" name="about" rows="6" class="shadow-sm focus:ring-indigo-500 focus:border-blue-500/50 mt-1 block w-full sm:text-sm border border-gray-300 rounded" ></textarea>
+                        <textarea required id="message" name="message" rows="6" class="shadow-sm focus:ring-indigo-500 focus:border-blue-500/50 mt-1 block w-full sm:text-sm border border-gray-300 rounded" ></textarea>
                     </div>
                 </div>
                 <div class="col-start-3 md:col-start-5 mt-4">
-                <button class="bg-color-primary hover:bg-blue-700 text-white font-bold py-2 my-6 px-4 rounded inline-flex items-center">
+                <button type="submit" class="bg-color-primary hover:bg-blue-700 text-white font-bold py-2 my-6 px-4 rounded inline-flex items-center">
                     <span>Enviar</span>
                     <svg class="fill-current w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path fill="#ffffff" d="M20.34,9.32l-14-7a3,3,0,0,0-4.08,3.9l2.4,5.37h0a1.06,1.06,0,0,1,0,.82l-2.4,5.37A3,3,0,0,0,5,22a3.14,3.14,0,0,0,1.35-.32l14-7a3,3,0,0,0,0-5.36Zm-.89,3.57-14,7a1,1,0,0,1-1.35-1.3l2.39-5.37A2,2,0,0,0,6.57,13h6.89a1,1,0,0,0,0-2H6.57a2,2,0,0,0-.08-.22L4.1,5.41a1,1,0,0,1,1.35-1.3l14,7a1,1,0,0,1,0,1.78Z"/>
