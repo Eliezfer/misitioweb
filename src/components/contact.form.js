@@ -36,30 +36,31 @@ export default () =>(
                 </div>
             </div>
         </div>
-        <form className="mt-16 mx-5 " name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
+        <form className="mt-16 mx-5 " name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true" action="/">
             <div className="rounded grid grid-cols-5 gap-4 border p-4">
-                
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                 <div class="col-span-5 mt-4">
-                    <label for="name" class="block font-bold text-sm text-gray-900 align-baseline ">Nombre completo</label>
-                    <input required type="text" name="name" id="name"  class="mt-1 focus:ring-indigo-500 focus:border-blue-500/50 block w-full md:w-1/2 shadow-sm sm:text-sm border-gray-300 rounded" />
+                    <label class="block font-bold text-sm text-gray-900 align-baseline ">Nombre completo</label>
+                    <input required  type="text" name="fullname" class="mt-1 focus:ring-indigo-500 focus:border-blue-500/50 block w-full md:w-1/2 shadow-sm sm:text-sm border-gray-300 rounded" />
                 </div>
 
                 <div class="col-span-5  mt-4">
-                    <label for="email-address" class="block font-bold text-sm text-gray-900 align-baseline ">Email</label>
-                    <input required type="email" name="email-address" id="email-address" autocomplete="email" class="mt-1 focus:ring-indigo-500 focus:border-blue-500/50 block w-full md:w-1/2 shadow-sm sm:text-sm border-gray-300 rounded"  placeholder="you@example.com"/>
+                    <label class="block font-bold text-sm text-gray-900 align-baseline ">Email</label>
+                    <input required type="email" name="email-address" autocomplete="email" class="mt-1 focus:ring-indigo-500 focus:border-blue-500/50 block w-full md:w-1/2 shadow-sm sm:text-sm border-gray-300 rounded"  placeholder="you@example.com"/>
                 </div>
 
                 <div class="col-span-5 mt-4">
-                    <label for="subject" class="block font-bold text-sm text-gray-900 align-baseline ">Asunto</label>
-                    <input required type="text" name="subject" id="subject" class="mt-1 focus:ring-indigo-500 focus:border-blue-500/50 block w-full md:w-1/2 shadow-sm sm:text-sm border-gray-300 rounded" />
+                    <label class="block font-bold text-sm text-gray-900 align-baseline ">Asunto</label>
+                    <input required type="text" name="subject" class="mt-1 focus:ring-indigo-500 focus:border-blue-500/50 block w-full md:w-1/2 shadow-sm sm:text-sm border-gray-300 rounded" />
                 </div>
 
                 <div class="col-span-5  mt-4 ">
-                    <label for="message" class="block font-bold text-sm text-gray-900 align-baseline ">
+                    <label class="block font-bold text-sm text-gray-900 align-baseline ">
                         Mensaje
                     </label>
                     <div class="mt-1">
-                        <textarea required id="message" name="message" rows="6" class="shadow-sm focus:ring-indigo-500 focus:border-blue-500/50 mt-1 block w-full sm:text-sm border border-gray-300 rounded" ></textarea>
+                        <textarea required name="message" rows="6" class="shadow-sm focus:ring-indigo-500 focus:border-blue-500/50 mt-1 block w-full sm:text-sm border border-gray-300 rounded" ></textarea>
                     </div>
                 </div>
                 <div class="col-start-3 md:col-start-5 mt-4">
