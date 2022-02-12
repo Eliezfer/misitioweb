@@ -5,6 +5,7 @@ import uadyImg from '../imgs/journay/uady.jpg';
 import botImg from '../imgs/journay/bot.jpg';
 import fmatImg from '../imgs/journay/fmat.jpg';
 import adiraImg from '../imgs/journay/adira.jpg';
+import accentureImg from '../imgs/journay/accenture.jpg'
 //import { useStaticQuery, graphql} from 'gatsby';
 
 export default(props)=>{
@@ -115,7 +116,7 @@ export default(props)=>{
                     <div class="bg-white p-6 rounded-md shadow-md">
                         <div className="flex"><span
                             class="font-bold txt-color-primary text-sm tracking-wide"
-                            >Agosto 2020 - Julio 2021 </span>
+                            >Agosto 2020 - Octubre 2021 </span>
                              <img src={workIcon} className=" w-5 mx-4" alt=""></img>
                         </div>
                         <h1 class="text-1xl xl:text-xl font-bold pt-1">Backend & DevOps Developer</h1>
@@ -124,11 +125,11 @@ export default(props)=>{
                         </p>
                     </div>
                     <div class="bg-white p-6 rounded-md shadow-md">
-                        <div className="flex"><span
+                        {/*<div className="flex"><span
                             class="font-bold txt-color-primary text-sm tracking-wide"
                             >Julio 2021 - presente </span>
                              <img src={workIcon} className=" w-5 mx-4" alt=""></img>
-                        </div>
+                        </div>*/}
                         <h1 class="text-1xl xl:text-xl font-bold pt-1">Full-stack Developer</h1>
                         <p class="pt-1">
                             Adira MX Suite
@@ -136,7 +137,29 @@ export default(props)=>{
                     </div>
                 </div>
             </div>
-        
+            <div class="relative z-10">
+                <img
+                    src={accentureImg}
+                    alt=""
+                    class="timeline-img"
+                />
+                <div class="timeline-container">
+                    <div class="timeline-pointer" aria-hidden="true"></div>
+                    <div class="bg-white p-6 rounded-md shadow-md">
+                        <div className="flex"><span
+                            class="font-bold txt-color-primary text-sm tracking-wide"
+                            >Octubre 2021 - Presente </span>
+                             <img src={workIcon} className=" w-5 mx-4" alt=""></img>
+                        </div>
+                        <h1 class="text-1xl xl:text-xl font-bold pt-1">
+                            App Engineering Analyst (Java Backend Developer)
+                        </h1>
+                        <p class="pt-1">
+                            Accenture
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         </div>
