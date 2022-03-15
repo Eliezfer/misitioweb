@@ -1,6 +1,6 @@
 import React from "react";
 import illustration from '../imgs/me.jpg';
-import cvPDF from '../assets/Eliezer-Couoh-CV-EN.pdf'
+import cvPDF from '../assets/Eliezer_Couoh_CV-Mar-2022-EN.pdf'
 
 
 export default () =>(
