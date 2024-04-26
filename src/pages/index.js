@@ -18,6 +18,5 @@ export default () => <div>
    <EducationNav/>
    <Projects/> 
    <Repos/>
-   <Codigofacilito/>
    <Contact/>
 </div>

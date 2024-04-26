@@ -95,6 +95,10 @@ body{
     background-color: #17dae8;
 }
 
+.bg-color-transparent {
+    background-color: none;
+}
+
 button.rec-dot_active{
     background-color: #17dae8;
     box-shadow: 0 0 1px 3px #ffffff00;
@@ -123,3 +127,26 @@ button.rec-dot_active{
     background-color: #17dae8;
     box-shadow: 0 0 2px 0 #333;
 }
+
+  .btn-color-2 {
+    border: rgb(253, 253, 253) 0.1rem solid;
+  }
+  
+  
+  .btn-color-2:hover {
+    background: #17dae8;
+    color: white;
+  }
+  
+  .btn-color-2 {
+    background: none;
+  }
+  
+  .btn-color-2:hover {
+    border: #17dae8 0.1rem solid;
+  }
+  
+
+  .btn-header {
+    width: 12rem;
+  }
