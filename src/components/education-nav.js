@@ -6,6 +6,7 @@ import botImg from '../imgs/journay/bot.jpg';
 import fmatImg from '../imgs/journay/fmat.jpg';
 import adiraImg from '../imgs/journay/adira.jpg';
 import accentureImg from '../imgs/journay/accenture.jpg'
+import nexuImg from '../imgs/journay/nexu.png'
 //import { useStaticQuery, graphql} from 'gatsby';
 
 export default(props)=>{
@@ -26,7 +27,7 @@ export default(props)=>{
     return(
         <div id='qualification' className="container-center pt-20 px-12 mx-auto">
             <h1 className=" font-bold text-3xl flex justify-center items-center " >Qualification</h1>
-            <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center text-center w-48 mx-auto"> Mi viaje personal</span>
+            <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center text-center w-48 mx-auto"> My personal journey</span>
 
             <div class="relative container mx-auto px-6 flex flex-col space-y-8">
             <div
@@ -69,10 +70,10 @@ export default(props)=>{
                     <div class="bg-white p-6 rounded-md shadow-md">
                         <div className="flex"><span
                             class="font-bold txt-color-primary text-sm tracking-wide"
-                            >Abril 2019 - Julio 2019 </span>
+                            >April 2019 - July 2019 </span>
                              <img src={workIcon} className=" w-5 mx-4" alt=""></img>
                         </div>
-                        <h1 class="text-1xl xl:text-xl font-bold pt-1">Practicante de SQA</h1>
+                        <h1 class="text-1xl xl:text-xl font-bold pt-1">SQA Training</h1>
                         <p class="pt-1">
                             Blue Ocean Technologies
                         </p>
@@ -90,14 +91,14 @@ export default(props)=>{
                     <div class="bg-white p-6 rounded-md shadow-md">
                         <div className="flex"><span
                             class="font-bold txt-color-primary text-sm tracking-wide"
-                            >Enero 2020 - Agosto 2020 </span>
+                            >January 2020 - August 2020 </span>
                              <img src={workIcon} className=" w-5 mx-4" alt=""></img>
                         </div>
                         <h1 class="text-1xl xl:text-xl font-bold pt-1">
                             Developer
                         </h1>
                         <p class="pt-1">
-                            FMAT - FISU (servicio social)
+                            FMAT - FISU (social service)
                         </p>
                     </div>
                 </div>
@@ -116,7 +117,7 @@ export default(props)=>{
                     <div class="bg-white p-6 rounded-md shadow-md">
                         <div className="flex"><span
                             class="font-bold txt-color-primary text-sm tracking-wide"
-                            >Agosto 2020 - Octubre 2021 </span>
+                            >August 2020 - June 2022 </span>
                              <img src={workIcon} className=" w-5 mx-4" alt=""></img>
                         </div>
                         <h1 class="text-1xl xl:text-xl font-bold pt-1">Backend & DevOps Developer</h1>
@@ -148,7 +149,7 @@ export default(props)=>{
                     <div class="bg-white p-6 rounded-md shadow-md">
                         <div className="flex"><span
                             class="font-bold txt-color-primary text-sm tracking-wide"
-                            >Octubre 2021 - Presente </span>
+                            >October 2021 - June 2022 </span>
                              <img src={workIcon} className=" w-5 mx-4" alt=""></img>
                         </div>
                         <h1 class="text-1xl xl:text-xl font-bold pt-1">
@@ -156,6 +157,30 @@ export default(props)=>{
                         </h1>
                         <p class="pt-1">
                             Accenture
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative z-10">
+                <img
+                    src={nexuImg}
+                    alt=""
+                    class="timeline-img"
+                />
+                <div class="timeline-container timeline-container-left">
+                    <div
+                        class="timeline-pointer timeline-pointer-left"
+                        aria-hidden="true"
+                    ></div>
+                    <div class="bg-white p-6 rounded-md shadow-md">
+                        <div className="flex"><span
+                            class="font-bold txt-color-primary text-sm tracking-wide"
+                            >June 2022 - Present </span>
+                             <img src={workIcon} className=" w-5 mx-4" alt=""></img>
+                        </div>
+                        <h1 class="text-1xl xl:text-xl font-bold pt-1">Mid Developer -  Ruby & Angular</h1>
+                        <p class="pt-1">
+                            Nexu
                         </p>
                     </div>
                 </div>

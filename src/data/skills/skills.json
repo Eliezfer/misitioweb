@@ -16,11 +16,7 @@
             },
             {
                 "name":"git",
-                "percentage":"80%"
-            },
-            {
-                "name":"phpunit",
-                "percentage":"70%"
+                "percentage":"90%"
             }
         ],
         "frontend":[
@@ -31,14 +27,6 @@
             {
                 "name":"CSS",
                 "percentage":"80%"
-            },
-            {
-                "name":"JAVASCRIPT",
-                "percentage":"70%"
-            },
-            {
-                "name":"REACT",
-                "percentage":"70%"
             },
             {
                 "name":"Angular",
@@ -60,11 +48,11 @@
                 "percentage":"80%"
             },
             {
-                "name":"PHP",
+                "name":"Ruby",
                 "percentage":"90%"
             },
             {
-                "name":"Laravel",
+                "name":"Ruby on Rails",
                 "percentage":"80%"
             },
             {
@@ -98,8 +86,8 @@
                 "percentage":"100%"
             },
             {
-                "name":"Inlgés",
-                "percentage":"55%"
+                "name":"Inglés",
+                "percentage":"60%"
             }
         ]
         

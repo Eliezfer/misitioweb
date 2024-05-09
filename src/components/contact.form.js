@@ -27,6 +27,7 @@ export default () =>(
                 </div>
             </div>
         </div>
+        
         <form className="mt-16 mx-5 " name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true" action="/">
             <div className="rounded grid grid-cols-5 gap-4 border p-4">
                 <input type="hidden" name="bot-field" />
@@ -38,7 +39,7 @@ export default () =>(
 
                 <div class="col-span-5  mt-4">
                     <label class="block font-bold text-sm text-gray-900 align-baseline ">Email</label>
-                    <input required type="email" name="email-address" autocomplete="email" class="mt-1 focus:ring-indigo-500 focus:border-blue-500/50 block w-full md:w-1/2 shadow-sm sm:text-sm border-gray-300 rounded"  placeholder="you@example.com"/>
+                    <input required type="email" name="email-address" autoComplete="email" class="mt-1 focus:ring-indigo-500 focus:border-blue-500/50 block w-full md:w-1/2 shadow-sm sm:text-sm border-gray-300 rounded"  placeholder="you@example.com"/>
                 </div>
 
                 <div class="col-span-5 mt-4">
