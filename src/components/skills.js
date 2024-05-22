@@ -50,7 +50,7 @@ export default () =>{
                         </svg>
                         <div className=" flex-grow items-start px-4 sm:px-10">
                             <h1 className="font-bold ">Devops</h1>
-                            <span className="text-xs">CI/DC</span>
+                            <span className="text-xs">CI/CD</span>
                         </div>        
                         <svg class="fill-current w-8 h-8 items-end row__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path fill="#17dae8" d="M17,9.17a1,1,0,0,0-1.41,0L12,12.71,8.46,9.17a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42l4.24,4.24a1,1,0,0,0,1.42,0L17,10.59A1,1,0,0,0,17,9.17Z"/>
