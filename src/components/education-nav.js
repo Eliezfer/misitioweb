@@ -48,7 +48,7 @@ export default(props)=>{
                              <img src={gradIcon} className=" w-5 mx-4" alt=""></img>
                         </div>
                         <h1 class="text-1xl xl:text-xl font-bold pt-1">
-                            Ingeniería de Software
+                            Software Engineering
                         </h1>
                         <p class="pt-1">
                             Universidad Autónoma de Yucatán
@@ -124,6 +124,7 @@ export default(props)=>{
                         <p class="pt-1">
                             Adira MX Suite
                         </p>
+                        Tools: Spring boot, React Native, Git, GitHub, Jenkins, Docker, Kubernetes, Azure, Figma, MySql, MongoDB, Keycloak
                     </div>
                     <div class="bg-white p-6 rounded-md shadow-md">
                         {/*<div className="flex"><span
@@ -158,6 +159,7 @@ export default(props)=>{
                         <p class="pt-1">
                             Accenture
                         </p>
+                        Tools: Java, Spring boot, Angular, Jenkins, Swagger, Git, GitLab, Sql
                     </div>
                 </div>
             </div>
@@ -182,6 +184,7 @@ export default(props)=>{
                         <p class="pt-1">
                             Nexu
                         </p>
+                        Tools: Ruby On Rails, Angular, Git, Github, Heroku, Sql
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ export default () =>{
     return(
     <div id='projects' className="container-center pt-20 sm:px-12 mx-auto">
         <h1 className=" font-bold text-3xl flex justify-center items-center " >Projects</h1>
-        <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">En qué he trabajado?</span>
+        <span className="font-bold bg-gray-900 text-1xl txt-color-primary flex justify-center items-center w-48 mx-auto">What have I worked on?</span>
         <div className=" py-10 flex flex-col md:flex-row justify-center items-center ">
          
         <Carousel breakPoints={breakPoints} >
@@ -24,8 +24,10 @@ export default () =>{
                     <div className="  md:w-6/12 md:pl-10 flex flex-col ">
                         <span className="font-bold text-1xl py-4 text-gray-900 align-baseline lg:text-2xl">Knetworks</span>
                         <p className="lg:py-10 ">
-                            Plataforma para gestión de contratación de personas para diferentes empresas.
-                            Mis actividades fueron en Backend (Java Spring y MongoDB) e infraestructura de la aplicación (DevOps con Docker, Kubernates y Jenkins).
+                            Platform for managing the hiring of people for different companies. <br></br>
+                            Backend tools: Java Spring and MongoDB. <br></br>
+                            DevOps tools: Docker, Kubernates and Jenkins. <br></br>
+                            Responsabilities: implementation of features and infrastructure release.
                         </p> 
                         {/*<div className="">
                             <a href="http://52.185.65.62/login" target="_blank" class="bg-color-primary hover:bg-blue-700 font-bold py-2 my-6 px-4 rounded inline-flex items-center">
@@ -42,8 +44,9 @@ export default () =>{
                     <div className="  md:w-6/12 md:pl-10 flex flex-col ">
                         <span className="font-bold text-1xl py-4 text-gray-900 align-baseline lg:text-2xl">Heineken</span>
                         <p className="lg:py-10 ">
-                            Plataforma para análisis de consumo de recursos de la empresa.
-                            Mis actividades fueron en soporte en Backend para análisis estadísticos de intervalos de confianza para predicciones de consumo (Java Spring y MySql).
+                            Platform to analyze data from company resources.<br></br>
+                            Backend tools: Java Spring y MySql. <br></br>
+                            Responsabilities: Backend sopport, and features for statistical analysis of confidence intervals for consumption predictions.  
                         </p> 
                         {/*<div className="">
                             <a href="https://performanceheineken.com/" target="_blank" class="bg-color-primary hover:bg-blue-700 font-bold py-2 my-6 px-4 rounded inline-flex items-center">
@@ -60,8 +63,10 @@ export default () =>{
                     <div className="  md:w-6/12 md:pl-10 flex flex-col ">
                         <span className="font-bold text-1xl py-4 text-gray-900 align-baseline lg:text-2xl">App Móvil TuDu</span>
                         <p className="lg:py-10 ">
-                            Aplicación de banca móvil para compra, transacciones, y pago de servicios con tarjetas digitales.
-                            Participación en Backend (Apis Rest con Java Spring, MySQL y MongoDB), FrontEnd (React Native)  e infraestructura de la aplicación (DevOps con Docker, Kubernates y Jenkins).
+                            Mobile banking application for purchasing, transactions and paying for services with digital cards.<br></br>
+                            Backend tools: Apis Rest con Java Spring, MySQL y MongoDB. <br></br>
+                            FrontEnd tools: React Native. <br></br>
+                            DevOps tools: Docker, Kubernates y Jenkins.<br></br>
                         </p> 
                         <div className="">
                         <span className="font-bold bg-color-primary text-1xl text-gray-900 flex justify-center items-center w-48 mx-auto py-2 my-6">APK aún no disonible</span>

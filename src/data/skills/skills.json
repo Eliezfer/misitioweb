@@ -66,27 +66,27 @@
         ],
         "softskills":[
             {
-                "name":"Autodidacta",
+                "name":"Autodidact",
                 "percentage":"100%"
             },
             {
-                "name":"Creativo",
+                "name":"Creative",
                 "percentage":"100%"
             },
             {
-                "name":"Trabajo en equipo",
+                "name":"Team work",
                 "percentage":"100%"
             },
             {
-                "name":"Comunicación",
+                "name":"Comunication",
                 "percentage":"100%"
             },
             {
-                "name":"Español",
+                "name":"Espanish",
                 "percentage":"100%"
             },
             {
-                "name":"Inglés",
+                "name":"English",
                 "percentage":"60%"
             }
         ]

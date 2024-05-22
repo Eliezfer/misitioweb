@@ -38,8 +38,8 @@ export default () => {
     return(
         <div className="max-w-4xl mx-auto mt-12">
             <header className="text-center">
-                <h2 className="text-3xl font-bold">Mi trabajo en Open Source</h2>
-                <p>Colaboraciones y contribuciones</p>
+                <h2 className="text-3xl font-bold">My Open Source Work</h2>
+                <p>Collaborations and contributions</p>
             </header>
             <ul className="repos-list">
                 {
@@ -50,7 +50,7 @@ export default () => {
             </ul>
             <div className="mt-8 text-center">
                 <a href="https://github.com/Eliezfer" className="bg-color-primary hover:bg-blue-700 text-white font-bold py-2 my-6 px-4 rounded inline-flex items-center" target="_blank" rel="noopener noreferrer">
-                    Ver más en github ({reposCount})
+                    see more on github ({reposCount})
                 </a>
             </div>
         </div>
