@@ -61,7 +61,7 @@ export default () =>{
                 <div className=" flex flex-col md:flex-row justify-center items-center">
                     <img className=" object-contain rounded-xl mx-auto md:w-6/12 lg:w-3/6 xl:mx-auto" src={tuduImg} alt=""></img>
                     <div className="  md:w-6/12 md:pl-10 flex flex-col ">
-                        <span className="font-bold text-1xl py-4 text-gray-900 align-baseline lg:text-2xl">App Móvil TuDu</span>
+                        <span className="font-bold text-1xl py-4 text-gray-900 align-baseline lg:text-2xl">Mobile App TuDu</span>
                         <p className="lg:py-10 ">
                             Mobile banking application for purchasing, transactions and paying for services with digital cards.<br></br>
                             Backend tools: Apis Rest con Java Spring, MySQL y MongoDB. <br></br>

@@ -105,7 +105,7 @@ export default () =>{
                             </svg>
                         <div className=" flex-grow items-start px-4 sm:px-10 ">
                             <h1 className="font-bold ">Backend</h1>
-
+                            <br></br>
                         </div>
                         
 
@@ -138,6 +138,7 @@ export default () =>{
                         </svg>
                         <div className=" flex-grow items-start px-4 sm:px-10 lg:pr-5">
                             <h1 className="font-bold ">Soft Skills</h1>
+                            <br></br>
                         </div>
                         
 
