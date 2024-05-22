@@ -68,10 +68,11 @@ export default () =>{
                             FrontEnd tools: React Native. <br></br>
                             DevOps tools: Docker, Kubernates y Jenkins.<br></br>
                         </p> 
+                        {/*
                         <div className="">
                         <span className="font-bold bg-color-primary text-1xl text-gray-900 flex justify-center items-center w-48 mx-auto py-2 my-6">APK aún no disonible</span>
                             
-                        </div>
+                </div>*/}
                     </div>
                 </div>
             </div>

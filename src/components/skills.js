@@ -78,7 +78,7 @@ export default () =>{
                         
                         <div className=" flex-grow items-start px-4 sm:px-10">
                             <h1 className="font-bold ">Frontend</h1>
-                            <span className="text-xs">Frontend</span>
+                            <span className="text-xs">UI/UX</span>
                         </div>
 
                         <svg class="fill-current w-8 h-8 row__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -105,7 +105,7 @@ export default () =>{
                             </svg>
                         <div className=" flex-grow items-start px-4 sm:px-10 ">
                             <h1 className="font-bold ">Backend</h1>
-                            <span className="text-xs">Backend</span>
+
                         </div>
                         
 
@@ -138,7 +138,6 @@ export default () =>{
                         </svg>
                         <div className=" flex-grow items-start px-4 sm:px-10 lg:pr-5">
                             <h1 className="font-bold ">Soft Skills</h1>
-                            <span className="text-xs">Soft skills</span>
                         </div>
                         
 

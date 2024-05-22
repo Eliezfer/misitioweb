@@ -25,10 +25,10 @@ export default () =>(
                     About
                 </Link>
                 <Link to="#skills" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
-                    skills
+                    Skills
                 </Link>
                 <Link to="#qualification" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
-                    Qualification
+                    Qualifications
                 </Link>
                 <Link to="#projects" className="block mt-4 mr-12 py-3 sm:inline-block sm:mt-0 hover:text-white">
                     Projects
